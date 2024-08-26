@@ -1,0 +1,24 @@
+/* tr:nth-child(3) > td{
+
+} */
+
+#notes{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.454);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#notes > .notes__area{
+    width: 460px;
+    height: 450px;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
